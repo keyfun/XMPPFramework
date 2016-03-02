@@ -1,13 +1,6 @@
 // 
 // Core classes
 // 
-#import <Foundation/Foundation.h>
-#import <Availability.h>
-#import <TargetConditionals.h>
-
-#ifndef _XMPP_
-	#define _XMPP_
-
 #import "XMPPJID.h"
 #import "XMPPStream.h"
 #import "XMPPElement.h"
@@ -35,5 +28,3 @@
 // 
 
 #import "NSXMLElement+XMPP.h"
-
-#endif
