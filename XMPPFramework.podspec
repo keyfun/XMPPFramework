@@ -54,7 +54,7 @@ s.source = { :git => 'https://github.com/robbiehanson/XMPPFramework.git', :branc
     core.dependency 'CocoaLumberjack', '~> 2.0'
     core.dependency 'CocoaAsyncSocket', '~> 7.5.0'
     core.dependency 'KissXML', '~> 5.1.2'
-    core.dependency 'KissXML/libxml_module', '~> 5.0.3'
+    core.dependency 'KissXML/libxml_module', '~> 5.1.2'
   end
 
   s.subspec 'BandwidthMonitor' do |ss|
